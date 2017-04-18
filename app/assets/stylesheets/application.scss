@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap";
+@import "font-awesome";
+
+/* Pages */
+@import "pages/index";
+
+@import "general";
+@import "header";
+

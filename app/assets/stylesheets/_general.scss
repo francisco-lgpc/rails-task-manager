@@ -1,0 +1,28 @@
+@import "color_scheme";
+
+body {
+  color: $dark-grey;
+  background-color: #F3F3F3;
+}
+
+a {
+  color: $dark-grey;
+  text-decoration: none;
+  &:visited { text-decoration: none; }
+  &:hover { text-decoration: none;  }
+  &:focus { text-decoration: none;   }
+  &:hover, a:active { text-decoration: none; color: $dark-grey; }
+}
+
+.container {
+
+  width: 80%;
+  margin: auto
+}
+
+.padded {
+  padding: 30px;
+}
+
+
+

@@ -1,0 +1,42 @@
+@import "../color_scheme";
+
+.spacer-column {
+  padding: 0 30px;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.wrapper-grey {
+  background-color: $light-grey;
+  padding: 40px 0;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px #C2C2C2;
+}
+
+.btn-mine {
+  color: white;
+  font-weight: bolder;
+  background-color: #A8A8A8;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #B3B3B3;
+  padding: 15px 25px;
+  opacity: 0.9;
+  transition: all 0.5s ease;
+  margin: 10px 10px 10px 0;
+}
+
+.btn-mine:hover {
+  opacity: 1;
+}
+
+tr {
+  height: 30px;
+}
+
+
